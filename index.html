@@ -7,28 +7,26 @@
 </head>
 <body>
     <header>
-        <div>
             <a href="#">Michael Groberman - Portfolio</a>
             <nav>
-              <ul>
-                <li class="nav-item">
                   <a href="#about-me">About Me</a>
-                </li>
-                <li class="nav-item">
                   <a href="#work">Work</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#contact">Contact Me</a>
-                </li>
-              </ul>
+                  <a href="#contact">Contact</a>
+                  <a href="/assets/">Resume</a>
             </nav>
-        </div>
     </header>
     <section id="hero">
+      <div>
+        <div>
+        <img src="/assets/images/headshot">
+        </div>
+        <h2>Michael Groberman</h2>
+        <h3>Full-Stack Developer</h3>
+      </div>
     <!-- must put picture here with My name underneath as a title and "Full Stack Developer" as the subtitle  -->
     </section>
     <!--This section contains "About Me"-->
-    <section id="about-me">
+    <section id="about-me" class="section">
         <div>
           <h4>About Me</h4>
         </div>
@@ -44,11 +42,11 @@
           </div>
     </section>
     <!--This section is for "Work"-->
-    <section id="work">
+    <section id="work" class="section">
         <div class="container">
           <h4>Work</h4>
             <div class="card-group">
-                <div class="card-body">
+                <div class="card-body" class="card-large">
                   <h5 class="card-title">Surf Report</h5>
                     <p class="card-text">MERN Stack</p>
                 </div>
@@ -69,13 +67,15 @@
     <!-- footercontaining contact info   -->
     <footer id="contact">
       <h4>Contact Me</h4>
+      <div>
       <ul>
         <li><a href="mailto:michael.groberman@me.com">Personal Email</a></li>
         <li>|</li>
         <li>a href="assets\resume\Michael_Groberman-Resume.pdf">Resume</a></li>
         <li>|</li>
         <li><a href="https://www.linkedin.com/in/michael-adam-groberman/">LinkedIn</li>
-      </ul> ​
+      </ul>
+      </div> ​
     </footer>
   </body>
 </html>
