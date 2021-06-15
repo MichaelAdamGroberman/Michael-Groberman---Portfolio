@@ -1,0 +1,52 @@
+body {
+	height: 100%;
+	position: relative;
+}
+​ html {
+	scroll-behavior: smooth;
+}
+
+#hero {
+	margin: 60px 0 0 0;
+	background-image: url('');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px 0;
+}
+#hero img {
+	padding-right: 0;
+	padding-bottom: 20px;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	display: flex;
+}
+.container{
+width: 100%;
+    padding: auto;
+    margin-right: auto;
+    margin-left:auto
+}
+.card-group {
+	display: flex;
+	flex-flow:row wrap
+}
+
+.card-group > .card {
+	flex: 1 0 0%;
+	margin-bottom:0
+}
+
+.card-group > .card + .card {
+	margin-left: 0;
+	border-left:0
+}
