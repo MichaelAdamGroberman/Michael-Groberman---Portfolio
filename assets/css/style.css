@@ -1,144 +1,91 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Global variable definitions */
 :root {
-  --header-background-color: #31343d;
-  --lightblue:#92cccd;
-  --lightgray:#ededf6;
-  --about-me-work-border: #445876;
-  --highlight-color:#92cccd;
-  --title-font:#445876;
-}
-
-/* Start of Semantic code */
-
-/* Smoth Scrolling effect */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Start of Header code */
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  list-style: none;
-  background-color: var(--header-background-color);
-}
-
-header h1 {
-  /* At bigger screens create space at left of h1 on header */
-  padding-left: 50px;
-}
-
-header nav ul {
-  display: flex; /* Flex container to display the child elements as flex with flex-end, wrap, and align the items in center */
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  padding-right: 0px;
-}
-
-header nav ul li {
-  /*Viewport font-size to help with the responsiveness of the web page */
-  font-size: 18px;
-  /* Align nave element to closely match the header h1 element*/
-  padding: 5px 15px 10px 10px;
-  margin-top: 15px;
-}
-
-header a {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  text-decoration: none;
-  border-bottom: 2px solid var(--lightblue);
-  color: var(--lightblue);
-}
-/* End of header code */
-
-/* Start of body code */
-body{
-  background-color: var(--lightgray); /* Apply background to all of the body of the page */
-  /* googleapis font family Karla */
-  font-family: 'Martel', serif;
-  margin: 0;
-  font-size: 14pt;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start
-}
-/* End of body code */
-
-/* Start of footer code */
-footer {
-  /* Apply background to all of the body of the page */
-  background-color: var(--lightgray); 
-  color: var(--title-font); /* Title color */
-}
-
-footer a {
-  text-decoration: none;
-  border-bottom: 2px solid var(--title-font); 
-  color: var(--header-background-color);
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-}
-/* End footer code */
-
-/* Start of hover effects on multiple classes */
-
-/* Header nav hover */
-.nav-effects a:hover{ 
-  color: var(--lightgray);
-  border-bottom: 2px solid var(--lightgray);
-}
-
-/* Work projects hover */
-.work-grid-container div:hover{ 
-  mix-blend-mode: color-burn;
-}
-
-/* Footer hover */
-.footer-container a:hover{
-  color: var(--lightblue);
-  border-bottom: 2px solid var(--lightblue);
-}
-/* End of hover effects on multiple classes */
-
-/* Start of hero section with background */
-.hero { /* Here section is a flex container */
-  height: 180px;
-  background-image: url("../images/nyc_skyline.JPG");
-  background-size: 120%; 
-  background-attachment: fixed; 
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  flex-direction: row; /* Row type rather than column type to showcase usage */
-  align-items: flex-end;
-}
-
-.hero-subtitle { /* Styling to the subtitle the Hero container */
-	padding-right: 25px;
-	padding-bottom: 15px;
-}
-/* End of hero section with background */
+	--section-font-color: #445876;
+	--lightblue: #92cccd;
+	--darkgray:#31343d;
+  }
   
-  /* section items */
-  .section-item {
+  * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	font-family: 'Times New Roman', Times, serif, Helvetica, Arial, sans-serif;
+	margin: 0;
+	font-size: 14pt;
+	display: flex;
+	flex-direction: column; 
+	justify-content: flex-start;
+	background-color: #ededf6;
+  }
+  
+  .main-header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2px;
+	background: var(--darkgray);
+	color: var(--lightblue);
+	background-image: url(../images/nyc_skyline.JPG);
+	background-size: cover;
+	min-height: 200px;
+	position: relative;
+  }
+  
+  .main-header div {
+	display: flex;
+	background-color: var(--darkgray);
+	align-items: right;
+  }
+  
+  .main-header h1 {
+	background: var(--lightblue);
+	color: var(--darkgray);
+	text-align: right;
+	margin-top: 10;
+	margin-bottom: 10;
+	padding: 10px;
+  }
+  
+  .sub-header {
+	background:var(--lightblue);
+	color:var(--darkgray);
+	margin: 0;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	padding: 10px;
+  }
+  
+  /* top nav bar */
+  nav {
+	justify-content: right;
+	flex: 3 0 0;
+	margin: 10px;
+	text-align: right;
+  }
+  
+  nav a {
+	color: var(--lightblue);
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 20px 10px;
+	font-size: 18pt;
+	border-bottom: 3px solid var(--lightblue);
+	padding: 10px;
+  }
+  
+  /* portfolio elements */
+  .portfolio-item {
 	display: flex;
 	color: var(--section-font-color);
 	margin: 20px;
   }
   
-  .section-item>header {
+  .portfolio-item>header {
 	font-size: 32pt;
 	font-weight: bold;
 	border-right: 6px solid var(--section-font-color);
@@ -147,7 +94,7 @@ footer a {
 	padding: 20px;
   }
   
-  .section-item>.content {
+  .portfolio-item>.content {
 	text-align: left;
 	flex: 4 0 0;
 	padding-left: 20px;
@@ -156,12 +103,12 @@ footer a {
 	flex-wrap: wrap;
   }
   
-  /* work item */
+  /* work items */
   .work-card {
 	padding: 0;
 	margin: 10px;
 	position: relative;
-	border: 6px solid #91CBCD;
+	border: 6px solid var(--lightblue));
 	flex: 0 0 45%;
 	display: flex;
 	background-repeat: repeat-x;
@@ -177,22 +124,19 @@ footer a {
   
   .work-card header {
 	position: absolute;
-	left: 2px;
 	bottom: 20px;
 	padding: 5px;
-	background-color: #91CBCD;
-	color: #333333;
+	background-color: var(--lightblue);
+	color: var(--section-font-color);
   }
   
-  /***** Set first cards' size bigger ******/
+  /* this "Highlights" the first project by making it bigger then the rest  */
   .work-card:first-child {
 	flex: 0 0 92%;
 	min-height: 600px;
   }
   
-  
-  /****** Project Images *********/
-  
+  /* project images */
   .project-1 {
 	background-image: url(../images/project1.jpg);
   }
@@ -213,34 +157,33 @@ footer a {
 	background-image: url(../images/project5.jpg);
   }
   
-  /***** Contact Me Links ******/
+  /* contact me section */
   #contact-me a {
-	color: #333333;
+	color: var(--section-font-color);
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
-	margin: 5px 15px;
+	margin: 10px 15px;
 	font-size: 15pt;
-	padding: 10px;
+	padding: 25px;
 	flex: 1 0 0;
 	text-decoration: underline;
 	text-decoration-color: var(--section-font-color);
 	text-decoration-style: solid;
-	text-decoration-thickness: 6px;
+	text-decoration-style: none;
   }
   
-  /****** Footer section *******/
+ /* footer section */
   footer {
-	background-color: black;
-	color: #ffffff;
-	font-size: 14pt;
+	background-color: var(--darkgray);
+	color: var(--lightblue);
+	font-size: 14px;
 	text-align: center;
 	padding: 10px;
 	letter-spacing: 3pt;
   }
   
-  /******** Media CSS *** 768px *******/
-  
+  /* @media query for screens with width smaller, or equal to 768px  */
   @media screen and (max-width: 768px) {
   
 	main,

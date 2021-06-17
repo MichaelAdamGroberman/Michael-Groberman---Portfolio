@@ -1,87 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+<!-- meta, linked files, title -->
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Michael Groberman</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Michael Groberman</title>
 </head>
 <!-- body starts here -->
 <body>
-  <!-- header starts here -->
-    <header>
-        <span class="span-background title"> <!-- Class for title background -->
-            <h1>Michael Groberman</h1>
-        </span>
-        <nav>
-            <ul class="nav-effects"> <!-- Header nav bar -->
-                <!-- start of anchor links  -->
-              <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./assets/files/Groberman_Michael-resume.pdf" download>Resume</a>
-                </li>
-            <!-- end of anchor links -->
-              </ul>
-        </nav>
-        <!-- nav ends here -->
-    </header>
-<!-- header ends here -->
-    <!-- hero section starts -->
-    <section class="hero">
-        <!-- Flex Container-->
-        <div class="hero-subtitle">           
-                <!-- span background on subtitle text -->
-                <h1><span class="span-background ">Full-Stack Developer</span></h1>
-        </div>
-    </section>
-    <!-- hero section ends -->
-    <!-- main content starts here -->
+  <!-- Header -->
+  <header class="main-header">
+    <div>
+      <h1>Michael Groberman</h1>
+      <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#work-items">Work</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="assets/files/Groberman_Michael-resume.pdf">Resume</a>
+      </nav>
+    </div>
+    
+    <!-- Sub Title-->
+    <h2 class="sub-header">Full-Stack Developer</h2>
+  </header>
+
+  <!-- Main Content -->
   <main>
     <!-- About Me Section -->
-    <section id="about-me" class="section-content">
+    <section id="about-me" class="portfolio-item">
+      <!-- section title -->
       <header>
         About Me
       </header>
       <div class="content">
-        <p>I am versatile Technologist with over 10 years of experience applying extensive knowledge in strategic planning, project management, and the technical skills to improve business operation performance while maintaining a proven track record of managing multiple technology implementation projects, collaborating with customer end users, technical resources, internal business and technical teams. Recognized for exceptional troubleshooting expertise involving complex, distributed environments, examining both the application and the infrastructure of a system for rapid resolution. I am passionate in overall development with a focus on successful execution possessing a broad technical skill set across all dimensions and integrations of information technology; including design, architecture, implementations, budgeting, vendor selection, optimization, management, and support.
-          </p>
+        <!-- section content -->
+        <p>I am versatile Technologist with over 10 years of experience applying extensive knowledge in strategic planning, project management, and the technical skills to improve business operation performance while maintaining a proven track record of managing multiple technology implementation projects, collaborating with customer end users, technical resources, internal business and technical teams. Recognized for exceptional troubleshooting expertise involving complex, distributed environments, examining both the application and the infrastructure of a system for rapid resolution. I am passionate in overall development with a focus on successful execution possessing a broad technical skill set across all dimensions and integrations of information technology; including design, architecture, implementations, budgeting, vendor selection, optimization, management, and support.</p>
+      <br>
         <p>At this current time, I'm enrolled in the <strong>Full-Stack Developer Bootcamp</strong> at <strong>Columbia Engineering</strong>, and am excited to expand on my skillset and knowledge.</p>
       </div>
-      <br>
     </section>
-
-    <!-- Work Section -->
-    <section id="work" class="section-content">
+<!-- End About Me Section -->
+<!-- Start Work Section -->
+    <section id="work-items" class="portfolio-item">
       <header>
         Work
       </header>
       <div class="content">
-        <section class="work-card code-refactor">
-          <a href="#">
-              <h1>Horiseon - Online Marketing</h1>
-              <p>01. Code Refactor</p>
-          </a>
-        </section>
-        <section class="work-card portfolio">
-          <a href="#">
+        <section class="work-card project-1">
+          <a href="https://michaeladamgroberman.github.io/Horiseon-Code-Refactoring/" target="_blank">
             <header>
-              <h1>Personal Portfolio</h1>
-              <p>02. HTML and Advanced CSS</p>
+              <!-- work card title -->
+              <h1>01. Code Refactor</h1>
+              <!-- work card subtitle/content -->
+              <p>Horiseon - Online Marketing</p>
             </header>
           </a>
         </section>
-        <section class="work-card password-generator">
+        <section class="work-card project-2">
           <a href="#">
             <header>
-              <h1>Password Generator</h1>
-              <p>03. Javascript</p>
+              <h1>Project 2</h1>
+              <p>Placeholder project</p>
+            </header>
+          </a>
+        </section>
+        <section class="work-card project-3">
+          <a href="#">
+            <header>
+              <h1>Project 3</h1>
+              <p>Placeholder project</p>
             </header>
           </a>
         </section>
@@ -105,23 +93,22 @@
     </section>
 
     <!-- Contact Me Section -->
-    <section id="contact-me" class="section-items">
+    <section id="contact-me" class="portfolio-item">
       <header>
         Contact Me
       </header>
       <p class="content">
-        <a href="tel:">Call Me</a>
-        <a href="mailto:michael.groberman@me.com">michael.groberman.com</a>
-        <a href="https://github.com/michaeladamgroberman">GitHub</a>
-        <a href="https://www.linkedin.com/in/michael-adam-groberman/">LinkedIn</a>
-        <a href="/assets/files/Groberman_Michael-resume.pdf">Resume</a>
+        <a href="tel:555-555-5555">Call Me</a>
+        <a href="mailto:michael.groberman@me.com">Email</a>
+        <a href="https://github.com/MichaelAdamGroberman" target="_blank">Git Hub</a>
+        <a href="http://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="assets/files/Groberman_Michael-resume.pdf">Resume</a>
       </p>
     </section>
   </main>
-<!-- footer starts here -->
+
   <footer>Copyright &copy; Michael Groberman 2021</footer>
-<!-- footer ends here  -->
 </body>
-<!-- body ends here -->
+
 </html>
 
