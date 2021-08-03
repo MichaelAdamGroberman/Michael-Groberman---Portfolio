@@ -7,6 +7,6 @@ It includes my resume, links to my contact information, and external links to my
 The site is responsive, and really utilizes flex classes in style.css 
 ## Deployed Page
 
-![Deployed Page Screenshot](./assets/images/portfolio-screenshot.png)
+![Deployed Page Screenshot](./assets/css/portfolio-screenshot.png)
 
 [Deployed GitPage](https://michaeladamgroberman.github.io/MichaelGroberman-Portfolio/)
