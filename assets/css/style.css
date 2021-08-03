@@ -28,7 +28,7 @@
 	padding: 2px;
 	background: var(--darkgray);
 	color: var(--lightblue);
-	background-image: url(../images/nyc_skyline.JPG);
+	background-image: url(./nyc_skyline.JPG);
 	background-size: cover;
 	min-height: 200px;
 	position: relative;
