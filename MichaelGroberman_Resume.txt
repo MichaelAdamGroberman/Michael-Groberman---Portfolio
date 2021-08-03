@@ -1,0 +1,87 @@
+Michael A. Groberman
+Fort Lee , NJ 07024 • Michael.Groberman@me.com • (201) 674-4074
+ 
+ 
+
+LINKS: Call-Me GitHub LinkedIn Email
+
+ 
+Versatile Technologist with over 7 years of experience applying extensive knowledge in strategic planning, project management, and technical skills to improve business operation performance while maintaining a proven track record of managing multiple technology implementation projects, collaborating with internal and external end users and technical resources. Recognized for exceptional troubleshooting expertise involving complex, distributed environments, examining both the application and the infrastructure of a system for rapid resolution. Passionate in overall development with a focus on successful execution possessing a broad technical skill set across all dimensions and integrations of information technology, including design, architecture, implementations, budgeting, vendor selection, optimization, management, and support.
+ 
+
+ 
+Professional Experience(s)
+ 
+Columbia University (Engineering): Full-Stack Bootcamp
+Student (June 2021 – November 2021)
+Brosnan Risk Consultants, LTD.
+Director, Information Technology (2020-2021) Manager, Information Technology (2018-2020)
+ 
+Mobile Device Management and Enterprise Device Enrollment
+	•	Facilitated and managed over 1,000 encrypted Company Issued Mobile Devices (both android and iOS) for service nationwide. 
+	•	Managed 500 on-offsite workstations, remote laptops, and IoT Devices. 
+	•	ALL Devices were immediately provisioned, and assets was tagged across all of our systems. 
+	•	Developed a plan with Verizon to reduce our cellular expenses by nearly 30% since the year I began. We first received a 22% discount thank-you to our representative, but I also implemented a Mobile Device Policy to completely redistrict the data abuse, notified the national, regional, and district managers, and then send a mass email communication to the employees reminding them of our Technology Use Acceptance and Agreement 
+	•	NOT FINISHD>>>>>>>A >>>>>>LOT>>>>MORE Consulting Projects (2017-Present)   McClarty Capital Partners - The Firmament Group 
+	•	Performed a business operations analysis. 
+	•	Created architecture and tables for Salesforce integration. 
+	•	Imported all paper documents as well as created custom objects, fields, relationships, and code in Salesforce. 
+	•	Developed custom KPI dashboards for each manager, and trained all users.   Sage Builders Corporation 
+	•	Performed infrastructure and hardware upgrades as well as routine Windows Server maintenance. 
+	•	Responsible for the onboarding of new employees and the off-boarding procedures. 
+	•	Managed the migration of the firm to Office365 for business and deployed a hybrid Azure environment onsite. 
+	•	Created and deployed active directory policies and the MDM policies via Cisco Meraki Systems manager. 
+	•	Participated in the launch of the company’s new website and migration of the hosting from 1and1 to AWS. 
+	•	Created the necessary buckets in AWS, migrated the data, configured the appropriate zone records, and launched in AWS. 
+	•	Operated as the firm’s helpdesk.   HardBeverages LLC 
+	•	Lead in the development and launch of new company website. 
+	•	Migrated exchange hosting from intermedia to Office365, including the migration of Intermedia’s SecureSync service to OneDrive Business/SharePoint. 
+	•	Configured and setup the VoIP phone system used by the firm. 
+	•	Operated as the firm’s helpdesk. 
+	•	Setup and managed the company’s Amazon Web Store.   Plattinum Media LLC / Platinum Productions 
+	•	Designed and built the company website (http://plattinummedia.com). 
+	•	Performed SEO analytics for the firm and its clients. 
+	•	Setup, configured, and deployed Office365 Business Services 
+	•	Lead the move to Google Cloud Services. 
+	•	Operated as the firm’s helpdesk Enzo Custom, New York, NY Director, Information Technology (2016-2017) Manager, Information Technology (2015-2016)   
+	•	Promoted from IT Manager to Director of IT due to rapid progression in deployment of all technology infrastructure, acting as the project manager oversaw all developer activities. 
+	•	Lead in design and development of a new web-based operations platform using Salesforce, which included system functions of CRM, ERP, POS, and with integration of the company’s over-seas production factory via REST API. 
+	•	Lead in the companywide initiative of workstation change to Macintosh Systems. 
+	•	Managed multiple teams for graphics, design, and development;
+	◦	Boston, MA – Digital Asset Graphics Team 
+	◦	San Francisco, CA – Salesforce Developers 
+	◦	Peru – Salesforce Developers 
+	◦	Chandigarh, India – Graphics Designers and Graphics Prep Team 
+	◦	New Delhi, India – Web Developers 
+	◦	Shanghai, China – Production Facility (IT Team) 
+	•	Built all layers of the network infrastructure using Cisco Meraki technology (network security appliances, IP Cameras, managed switches, AP’s, etc.) 
+	•	Successfully migrated company online storage solution and legacy pop3 email services and accounts to Ofﬁce365 Business E2. I created all of the team SharePoint sites, created and assigned user proﬁles. 
+	•	Was responsible for a full-data lockdown and strategy to minimizing ﬁrm’s data vulnerabilities. Oversaw the migration of all store-front users to Mac OS workstations and completed a full Cisco Meraki Systems integration to promote increased data-protection protocols including dual-factor authentication, domain whitelisting/blacklisting, security proﬁles, and USB Access control. 
+	•	Conﬁgured, deployed, and remotely managed a VoIP-base call center with a follow a integration with Salesforce and provided telephone meta on the callers for operators, signiﬁcantly reducing call duration. 
+	•	Designed, built, and deployed a new website, signiﬁcantly contributing to the increase in company performance. The site was developed and fully integrated with Salesforce.com, allowed for proper web analytics to be collected, and includes real-time online scheduling features for multiple business locations. 
+	•	Designed a dynamic method of digitally rendering an image for any product, including the design of the studio space and selection of the appropriate technology which would allow for a product permutation in a 360-degree view. These digital assets contributed to technological advances to garment customization. 
+	•	Managed the selection, setup, and operation of the digital scanning of the fabrics offered by the company, with images scanned at 6400dpi and compressed by 800% via seamless tiling. C&A Consulting LLC, New York, NY Manager, Information Technology (2012-2015)  
+	◦	Oversaw the company’s technology needs and initiatives including; network based, and security services, CRM integration(s), Time Tracking and Expenses integrations, PCI and FINRA Security Compliance, and more. 
+	◦	Managed and deployed Cisco Meraki MX and ReadyNAS devices onsite and remote locations. 
+	◦	Maintained the company’s infrastructure with the highest level of integrity. Designed, installed, and conﬁgured the network for the company and its client which included a corporate law ofﬁces, a Bloomberg broker-dealer, and a team of software developers. 
+	◦	Performed a detailed risk assessment in an effort to identify network vulnerabilities. 
+	◦	Guided cross-functional teams in the design validation, acceptance testing and implementation of secure network communication across remote sites for several clients. This included full data   Key Proficiencies/ Skills 
+	•	HTML, CSS, JavaScript ES5/ES, Node.JS, React.JS, Vue,JS, PHP, Python, SQL, MariaDB, MongoDb 
+	•	WordPress, Drupal, Wix, Salesforce, HubSpot, Nextiva Call Center CRM, 
+	•	Strategic planning/Visioning and Tactical Execution 
+	•	Salesforce.com | CRM Integrations | Automation 
+	•	Team Building, Front-line leadership 
+	•	Time management, Organization, Expense Management 
+	•	Cloud Environments: AWS: S3, Lambdas, Virtual Machines, Azure: P2 Flatform* 
+	•	VMware vSphere, Fusion, Workstation, and other virtualization software 
+	•	Unix Environments: Ubuntu, Debian, Mac OS X / Mac OS Server 
+	•	Windows Environment: Windows 7 Pro, Windows 10 Pro, Windows Server 2012 R2, 2018 R2 
+	•	Mobile Device Management and Enterprise Deployment SaaS: Cisco Meraki (Systems Manager, Network Optic Fiber Optics and Networking required, network infrastructure topography, Networking Security Appliances (and application), Layer 1,2, and 3 Switches, AP’s and decibel gain antenna application 
+	•	Extensive software and hardware proficiency including Debian, Ubuntu, CentOS, Mac OS X, Microsoft Windows Systems, Office365, Adobe CS, 
+	•	Data Security, Business Continuity Planning and Execution. 
+	•	SEO Best Practices and Integrations, structuring/execution of Digital Marketing Campaigns,   Certifications 
+	•	Certified Professional Columba University Full-Stack Developer 
+	•	Salesforce Certified Administrator 
+	•	Cisco Networks/Adobe Certified Programs 
+	•	Google Analytics Academy 
+	•	AWS Certiﬁed Solutions Architect Associate 
