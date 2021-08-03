@@ -138,23 +138,23 @@
   
   /* project images */
   .project-1 {
-	background-image: url(./assets/images/vegitate.png);
+	background-image: url(./vegitate.png);
   }
   
   .project-2 {
-	background-image: url(./assets/images/project2.jpg);
+	background-image: url(./portfolio-screenshot.png);
   }
   
   .project-3 {
-	background-image: url(./assets/images/project3.jpg);
+	background-image: url(./project3.jpg);
   }
   
   .project-4 {
-	background-image: url(./assets/images/project4.jpg);
+	background-image: url(./project4.jpg);
   }
   
   .project-5 {
-	background-image: url(./assets/images/project5.jpg);
+	background-image: url(./project5.jpg);
   }
   
   /* contact me section */
